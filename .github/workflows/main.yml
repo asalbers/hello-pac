@@ -37,7 +37,7 @@ jobs:
         uses: docker/login-action@v1
         with:
           registry: ghcr.io
-          username: ${{ github.repository_owner }}
+          username: asalbers
           password: ${{ secrets.GHCR_PASSWORD }}
       - name: Porter publish to ghcr.io
         run: |
