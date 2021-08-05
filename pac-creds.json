@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0.0-DRAFT+b6c701f",
+  "name": "pac-creds",
+  "created": "2021-08-04T22:36:24.988298-05:00",
+  "modified": "2021-08-04T22:36:24.988298-05:00",
+  "credentials": [
+    {
+      "name": "POWER_CLIENT_ID",
+      "source": {
+        "env": "POWER_CLIENT_ID"
+      }
+    },
+    {
+      "name": "POWER_CLIENT_PASSWORD",
+      "source": {
+        "env": "POWER_CLIENT_PASSWORD"
+      }
+    },
+    {
+      "name": "POWER_TENANT_ID",
+      "source": {
+        "env": "POWER_TENANT_ID"
+      }
+    }
+  ]
+}
